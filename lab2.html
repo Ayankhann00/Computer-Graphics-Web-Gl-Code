@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>web page</title>
+  </head>
+
+  <body>
+    <h1><center>Welcome To My Web page</center></h1>
+    <nav>
+      <ul>
+        <li><strong>Home</strong></li>
+        <li><strong>About</strong></li>
+        <li><strong>Contact</strong></li>
+        <li><strong>Services</strong></li>
+      </ul>
+    </nav>
+    <h2>Home</h2>
+    <img src="p.jpg" alt="A descriptive of pitbull" width="600" />
+    <br/>
+    <p></p>
+    <h2><center>Here are the main Contents of my web page</center>
+    <h2>About</h2>
+    <p>My name is <mark>Ayan Khan</mark>, a Computer Science student at <mark>NUST</mark>. I am passionate about web development and currently learning HTML, CSS, JavaScript, and Python. I enjoy creating small projects like login pages, weather apps, and world clocks. My goal is to become a skilled full-stack developer and explore technologies like Django, React, and Flutter.</p>
+    <h2>Services</h2>
+    <ul>
+      <li>Web Development Practice (HTML, CSS, JavaScript)</li>
+      <li>Front-End Projects (Login Page, Weather App, World Clock)</li>
+      <li>Back-End Learning (Python, Django basics)</li>
+      <li>Exploring Mobile Development with Flutter</li>
+      <li>Problem Solving in C++ and Data Structures</li>
+    </ul>
+    <p>This page was last updated on 
+        <time datetime="2025-09-21">September 21, 2025</time>.
+     </p>
+     <h2>Canvas</h2>
+     <canvas id="myCanvas" width="400" height="200" style="border:1px solid black;">
+       Your browser does not support the canvas tag.
+     </canvas>
+     
+     <script>
+
+       var c = document.getElementById("myCanvas");
+       var ctx = c.getContext("2d");
+     
+       ctx.fillStyle = "blue";
+       ctx.fillRect(50, 50, 150, 100);
+     
+       ctx.fillStyle = "white";
+       ctx.font = "20px Arial";
+       ctx.fillText("Hello Canvas!", 60, 120);
+     </script>
+     
+     <br/>
+     <form action="Myform.php">
+        <label for="name">name</label>
+        <div>
+            name:<input type="text">
+        </div>
+        <hr>
+        </hr>
+        <div>
+            age:<input type="text">
+        </div>
+        <div>
+            date:<input type="date" name="date">
+        </div>
+        <div>
+            Bonus:<input type="number" name="num">
+        </div>
+        <div>
+            gender:male<input type="radio" name="Mygender">female<input type="radio" name="Mygender">
+        </div>
+        </div>
+        <div>
+            <input type="reset" name="reset now">
+        </div>
+        <div>
+            agree to terms and conditions:<input type="checkbox" name="eligible">
+        </div>
+    
+        <div>
+            <h4><strong>THE CITY</strong></h4>
+            <select>
+                <option value="london">karachi</option>
+                <option value="chicago">lahore</option>
+                <option value="mumbai">Quetta</option>
+            </select>
+        </div>
+        <div>
+            upload a file:<input type="file" name="myfile">
+        </div>
+        <div>
+            upload image:<input type="image" name="myimage">
+        </div>
+        <div>
+            info:<textarea name="info" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit now">
+        </div>
+    
+    </form>
+    <br/>
+    <h2>Audio Demo</h2>
+<audio controls>
+  <source src="hiphop.00003.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+<h2>Video Demo</h2>
+<video width="500" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+    <footer>
+        <p>&copy; 2024 My Page. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
